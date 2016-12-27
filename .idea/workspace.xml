@@ -2,92 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="008a7a4c-891c-43ee-bea2-f1a9b381eb52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/javascripts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/navbar.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/album.css" afterPath="$PROJECT_DIR$/static/album.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/brand/bootstrap-outline.svg" afterPath="$PROJECT_DIR$/static/assets/brand/bootstrap-outline.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/brand/bootstrap-punchout.svg" afterPath="$PROJECT_DIR$/static/assets/brand/bootstrap-punchout.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/brand/bootstrap-social-logo.png" afterPath="$PROJECT_DIR$/static/assets/brand/bootstrap-social-logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/brand/bootstrap-social.png" afterPath="$PROJECT_DIR$/static/assets/brand/bootstrap-social.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/brand/bootstrap-solid.svg" afterPath="$PROJECT_DIR$/static/assets/brand/bootstrap-solid.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/docs-flexbox.min.css" afterPath="$PROJECT_DIR$/static/assets/css/docs-flexbox.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/docs-flexbox.min.css.map" afterPath="$PROJECT_DIR$/static/assets/css/docs-flexbox.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/docs.min.css" afterPath="$PROJECT_DIR$/static/assets/css/docs.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/docs.min.css.map" afterPath="$PROJECT_DIR$/static/assets/css/docs.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/bs-themes.png" afterPath="$PROJECT_DIR$/static/assets/img/bs-themes.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/components.png" afterPath="$PROJECT_DIR$/static/assets/img/components.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/devices.png" afterPath="$PROJECT_DIR$/static/assets/img/devices.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/expo-lyft.jpg" afterPath="$PROJECT_DIR$/static/assets/img/expo-lyft.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/expo-newsweek.jpg" afterPath="$PROJECT_DIR$/static/assets/img/expo-newsweek.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/expo-riot.jpg" afterPath="$PROJECT_DIR$/static/assets/img/expo-riot.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/expo-vogue.jpg" afterPath="$PROJECT_DIR$/static/assets/img/expo-vogue.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/img/sass.png" afterPath="$PROJECT_DIR$/static/assets/img/sass.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/docs.min.js" afterPath="$PROJECT_DIR$/static/assets/js/docs.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/static/assets/js/ie-emulation-modes-warning.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/static/assets/js/ie10-viewport-bug-workaround.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/src/application.js" afterPath="$PROJECT_DIR$/static/assets/js/src/application.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/vendor/anchor.min.js" afterPath="$PROJECT_DIR$/static/assets/js/vendor/anchor.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/vendor/clipboard.min.js" afterPath="$PROJECT_DIR$/static/assets/js/vendor/clipboard.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/vendor/holder.min.js" afterPath="$PROJECT_DIR$/static/assets/js/vendor/holder.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/vendor/jekyll-search.min.js" afterPath="$PROJECT_DIR$/static/assets/js/vendor/jekyll-search.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.min.js" afterPath="$PROJECT_DIR$/static/assets/js/vendor/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/js/vendor/tether.min.js" afterPath="$PROJECT_DIR$/static/assets/js/vendor/tether.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_ads.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_ads.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_anchor.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_anchor.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_booticon.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_booticon.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_brand.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_brand.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_browser-bugs.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_browser-bugs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_buttons.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_buttons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_callouts.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_callouts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_clipboard-js.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_clipboard-js.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_component-examples.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_component-examples.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_content.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_content.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_examples.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_examples.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_featured-sites.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_featured-sites.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_featurettes.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_featurettes.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_footer.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_footer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_masthead.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_masthead.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_nav.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_nav.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_page-header.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_page-header.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_responsive-tests.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_responsive-tests.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_sidebar.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_sidebar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_skiplink.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_skiplink.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_syntax.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_syntax.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/_team.scss" afterPath="$PROJECT_DIR$/static/assets/scss/_team.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/docs.scss" afterPath="$PROJECT_DIR$/static/assets/scss/docs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/scss/flex-grid.scss" afterPath="$PROJECT_DIR$/static/assets/scss/flex-grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/static/css/animate.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-flex.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-flex.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-flex.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-flex.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-flex.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-flex.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-flex.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-flex.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-grid.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-reboot.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/jumbotron.css" afterPath="$PROJECT_DIR$/static/css/jumbotron.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jQuery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/signup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/signup.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/static/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/static/js/ie10-viewport-bug-workaround.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="$PROJECT_DIR$/static/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/album.css" afterPath="$PROJECT_DIR$/static/album.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <ignored path="bookmark.me.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,22 +34,54 @@
     <favorites_list name="bookmark.me" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="429">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="album.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/album.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2210">
+              <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="99" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
+            <state relative-caret-position="561">
+              <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -130,13 +89,26 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/signup.css" />
+        <option value="$PROJECT_DIR$/js/jQuery.js" />
+        <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/static/signup.css" />
+        <option value="$PROJECT_DIR$/static/album.css" />
+        <option value="$PROJECT_DIR$/templates/signup.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
@@ -172,6 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,11 +192,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookmark.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bookmark.me" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -394,6 +387,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="008a7a4c-891c-43ee-bea2-f1a9b381eb52" name="Default" comment="" />
@@ -415,7 +411,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30178174" sideWeight="0.48674443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24749164" sideWeight="0.49315068" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24721603" sideWeight="0.49315068" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21181718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -428,6 +424,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -438,17 +442,123 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/signup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="99" selection-start-line="76" selection-start-column="99" selection-end-line="76" selection-end-column="99" />
+        <state relative-caret-position="1190">
+          <caret line="70" column="200" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="200" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/flask/ext/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/flaskext/mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/werkzeug/security.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="233" column="4" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/album.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/signup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
