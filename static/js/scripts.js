@@ -13,3 +13,19 @@ $(function() {
         });
     });
 });
+
+$(function() {
+    $('#btnLogIn').click(function() {
+        $.ajax({
+            url: '/action_login',
+            data: $('form').serialize(),
+            type: 'POST',
+            success: function(response) {
+                console.log(response);
+            },
+            error: function(error) {
+                console.log(error);
+            }
+        });
+    });
+});

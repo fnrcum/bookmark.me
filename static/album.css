@@ -35,7 +35,8 @@ body {
 }
 
 .jumbotron {
-
+    height: 100vh;
+    margin-top: 70px;
     margin-bottom: 0;
     background-color: #fff;
 }
