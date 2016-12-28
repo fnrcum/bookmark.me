@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, json, session, redirect, url_for, escape
+from flask import Flask, render_template, request, json, session, redirect, url_for, escape, flash
 from flaskext.mysql import MySQL
 from hashlib import md5
 app = Flask(__name__)
@@ -26,7 +26,7 @@ class ServerError(Exception):
 def index():
     if 'username' in session:
         username_session = escape(session['username']).capitalize()
-        print username_session
+        username_session = username_session.split('@')[0]
         # So is this the main page you're meant to go to?
         return render_template('index.html', session_user_name=username_session)
     return render_template('index.html')
@@ -34,11 +34,21 @@ def index():
 
 @app.route("/login")
 def login():
+    if 'username' in session:
+        username_session = escape(session['username']).capitalize()
+        username_session = username_session.split('@')[0]
+        # So is this the main page you're meant to go to?
+        return redirect(url_for('index'))
     return render_template('login.html')
 
 
 @app.route("/signup")
 def signup():
+    if 'username' in session:
+        username_session = escape(session['username']).capitalize()
+        username_session = username_session.split('@')[0]
+        # So is this the main page you're meant to go to?
+        return redirect(url_for('index'))
     return render_template('signup.html')
 
 
@@ -55,6 +65,12 @@ def action_signup():
         return json.dumps({'html': '<span>Enter the required fields</span>'})
     else:
         json.dumps({'html': '<span>All fields good !!</span>'})
+
+        cursor.execute("SELECT COUNT(1) FROM tbl_user WHERE user_email = '{0}';".format(_email))
+
+        if cursor.fetchone()[0]:
+            flash('Email already used')
+            return redirect(url_for('signup'))
 
         _hashed_password = md5(md5(app.secret_key).hexdigest() + md5(_password).hexdigest()).hexdigest()
         query = "INSERT INTO tbl_user (user_name, user_email, user_password) VALUES ('{0}', '{1}', '{2}')".format(
