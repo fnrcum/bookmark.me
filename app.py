@@ -26,7 +26,7 @@ def show_signup():
     return render_template('signup.html')
 
 
-@app.route('/signUp', methods=['POST'])
+@app.route('/action_signup', methods=['POST'])
 def sign_up():
 
     # read the posted values from the UI
@@ -42,13 +42,8 @@ def sign_up():
         query = "INSERT INTO tbl_user (user_name, user_email, user_password) VALUES ('{0}', '{1}', '{2}')".format(
             _name, _email, _hashed_password)
         cursor.execute(query)
-        data = cursor.fetchall()
-
-        if len(data) is 0:
-            conn.commit()
-            return json.dumps({'message': 'User created successfully !'})
-        else:
-            return json.dumps({'error': str(data[0])})
+        conn.commit()
+        return json.dumps({'html': '<span>User added successfully</span>'})
 
     else:
         return json.dumps({'html': '<span>Enter the required fields</span>'})
