@@ -21,6 +21,16 @@ class ServerError(Exception):
     pass
 
 
+@app.errorhandler(404)
+def page_not_found(e):
+    if 'username' in session:
+        username_session = escape(session['username']).capitalize()
+        username_session = username_session.split('@')[0]
+        # So is this the main page you're meant to go to?
+        return render_template('page_not_found.html', session_user_name=username_session)
+    return render_template('page_not_found.html'), 404
+
+
 @app.route("/index")
 @app.route("/")
 def index():
@@ -50,6 +60,16 @@ def signup():
         # So is this the main page you're meant to go to?
         return redirect(url_for('index'))
     return render_template('signup.html')
+
+
+@app.route("/my_account")
+def my_account():
+    if 'username' in session:
+        username_session = escape(session['username']).capitalize()
+        username_session = username_session.split('@')[0]
+        # So is this the main page you're meant to go to?
+        return render_template('my_account.html', session_user_name=username_session)
+    return redirect(url_for('index'))
 
 
 @app.route('/action_signup', methods=['POST'])

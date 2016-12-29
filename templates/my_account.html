@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+    {% block content %}
+    <section class="jumbotron text-xs-center wrapme">
+      <div class="container">
+            <h1>Welcome {% print session_user_name %}</h1>
+      </div>
+    </section>
+    {% endblock %}

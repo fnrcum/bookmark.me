@@ -38,7 +38,7 @@ body {
     height: 100vh;
     margin-top: 70px;
     margin-bottom: 0;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .jumbotron p:last-child {

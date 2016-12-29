@@ -5,9 +5,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
+        <meta name="description" content="bookmark, personal, management, bookmark management, cross platform, mobile">
         <meta name="author" content="">
-        <link rel="icon" href="../../favicon.ico">
+        <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}">
 
         <title>Bookmark.me</title>
 
@@ -17,6 +17,7 @@
         <!-- Custom styles for this template -->
         <link href="{{ url_for('static', filename='album.css') }}" rel="stylesheet">
         <link href="{{ url_for('static', filename='signup.css') }}" rel="stylesheet">
+
     {% endblock %}
   </head>
   <body>
@@ -45,6 +46,11 @@
                     <a class="nav-link" href="{{ url_for('action_logout') }}">Log Out</a>
                     {% endif %}
                 </li>
+                {% if session_user_name %}
+                <li class="nav-item float-xs-right">
+                    <a class="nav-link" href="{{ url_for('my_account') }}">My Account ({% print session_user_name %})</a>
+                </li>
+                {% endif %}
             </ul>
         </nav>
     {% endblock %}
