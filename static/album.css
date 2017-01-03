@@ -35,10 +35,10 @@ body {
 }
 
 .jumbotron {
-    height: 100vh;
-    margin-top: 70px;
+
+    margin-top: 58px;
     margin-bottom: 0;
-    background-color: transparent;
+    background-color: #f7f7f7;
 }
 
 .jumbotron p:last-child {
@@ -58,11 +58,11 @@ body {
     padding-top: 3rem;
     padding-bottom: 1rem;
     background-color: #f7f7f7;
-    margin-top: 55px;
+
 }
 
 .wrapme{
-    min-height: 100vh;
+
     margin-bottom: -60px;
     padding: 0 0 60px;
 }
@@ -73,6 +73,7 @@ body {
     padding: .75rem;
     margin-bottom: 1rem;
     border: 0;
+    background-color: transparent;
 }
 
 .card > img {

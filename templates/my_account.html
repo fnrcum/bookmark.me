@@ -1,8 +1,54 @@
 {% extends "layout.html" %}
     {% block content %}
-    <section class="jumbotron text-xs-center wrapme">
-      <div class="container">
+    <section class="jumbotron text-xs-center">
+        <div class="container">
             <h1>Welcome {% print session_user_name %}</h1>
-      </div>
+        </div>
     </section>
+    <div class="album text-muted">
+      <div class="container">
+        <div class="row">
+          <div class="card">
+            <p class="card-text text-xs-center"><strong>Add new bookmark</strong></p>
+            <img class="framer" src="{{ url_for('static', filename='images/add.png') }}" height="285px">
+            <a class="overlay" href="#" data-toggle="modal" data-target="#myModal"></a>
+          </div>
+        <div class="card">
+            <p class="card-text text-xs-center"><strong>Bookmark Title</strong></p>
+            <img class="framer" src="http://api.thumbalizr.com?url=https://plugins.jquery.com/tag/url/&width=600">
+            <a class="overlay" href="https://plugins.jquery.com/tag/url/"></a>
+        </div>
+        </div>
+      </div>
+      <!--Modal-->
+      <div class="modal fade" id="myModal" role="form">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-xs-center">Add a new bookmark</h4>
+            </div>
+            <div class="modal-body">
+              <form action="{{ url_for('action_add_bookmark') }}" method=POST class="form-signin">
+                  <label for="inputTitle" class="sr-only">Bookmark Title</label>
+                  <input type="text" name="inputTitle" id="inputTitle" class="form-control" placeholder="Bookmark Title" required autofocus>
+                  <label for="inputLink" class="sr-only">URL to bookmark</label>
+                  <input type="url" name="inputLink" id="inputLink" class="form-control" placeholder="URL to bookmark" required>
+                  <label for="inputTags" class="sr-only">Bookmark tags divided by ','</label>
+                  <input type="text" name="inputTags" id="inputTags" class="form-control" placeholder="Bookmark tags divided by ','" required>
+                  <label class="radio-inline"><input type="radio" name="optradio" value="1" checked="checked">Public</label>
+                  <label class="radio-inline"><input type="radio" name="optradio" value="0">Private</label>
+                  <button id="btnAddBookmark" class="btn btn-default btn-block" type="submit">Add Bookmark</button>
+              </form>
+            </div>
+            <!--<div class="modal-footer">-->
+              <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+            <!--</div>-->
+          </div>
+
+        </div>
+      </div>
+    </div>
     {% endblock %}

@@ -1,11 +1,16 @@
 {% extends "layout.html" %}
 {% block content %}
+<section class="jumbotron text-xs-center">
+    <div class="container">
+        <h1>Popular bookmarks</h1>
+    </div>
+</section>
 <div class="album text-muted">
   <div class="container">
     <div class="row">
       <div class="card">
         <p class="card-text text-xs-center"><strong>Bookmark Title</strong></p>
-        <img class="framer" src="http://api.thumbalizr.com?url=https://plugins.jquery.com/tag/url/&width=600">
+        <img class="framer" src="http://api.thumbalizr.com?url=https://www.youtube.com/watch?v=0nKMNYorX9U&width=600">
         <a class="overlay" href="https://plugins.jquery.com/tag/url/"></a>
       </div>
         <div class="card">
@@ -30,6 +35,69 @@
       </div>
     </div>
   </div>
+  <!--Modal Log In-->
+      <div class="modal fade" id="myLoginModal" role="form">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-xs-center">Log In</h4>
+            </div>
+            <div class="modal-body">
+              <form action="{{ url_for('action_login') }}" method=POST class="form-signin">
+                <label for="inputEmailLogin" class="sr-only">Email address</label>
+                <input type="email" name="inputEmail" id="inputEmailLogin" class="form-control" placeholder="Email address" required autofocus>
+                <label for="inputPasswordLogin" class="sr-only">Password</label>
+                <input type="password" name="inputPassword" id="inputPasswordLogin" class="form-control" placeholder="Password" required>
+
+                <button id="btnLogIn" class="btn btn-lg btn-primary btn-block" type="submit">Log In</button>
+            </form>
+            </div>
+            <div class="modal-footer">
+              <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#mySignupModal">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!--Modal Sign Up-->
+      <div class="modal fade" id="mySignupModal" role="form">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-xs-center">Register</h4>
+            </div>
+            <div class="modal-body">
+              <form action="{{ url_for('action_signup') }}" method=POST class="form-signin" id="valid-frm">
+             {% with messages = get_flashed_messages() %}
+                  {% if messages %}
+                    <ul class=flashes>
+                    {% for message in messages %}
+                      <li>{{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+             {% endwith %}
+              <label for="inputNameSignup" class="sr-only">Name</label>
+              <input type="name" name="inputName" id="inputNameSignup" class="form-control" placeholder="Name" required autofocus>
+              <label for="inputEmailSignup" class="sr-only">Email address</label>
+              <input data-validation="email" data-validation-length="min4" type="email" name="inputEmail" id="inputEmailSignup" class="form-control" placeholder="Email address" required autofocus>
+              <label for="inputPasswordSignup" class="sr-only">Password</label>
+              <input type="password" name="inputPassword" id="inputPasswordSignup" class="form-control" placeholder="Password" required>
+
+              <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
+            </form>
+            </div>
+            <div class="modal-footer">
+              <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#myLoginModal">Log In</a>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
 {% endblock %}
 

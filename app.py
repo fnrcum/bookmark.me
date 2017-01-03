@@ -42,24 +42,24 @@ def index():
     return render_template('index.html')
 
 
-@app.route("/login")
-def login():
-    if 'username' in session:
-        username_session = escape(session['username']).capitalize()
-        username_session = username_session.split('@')[0]
-        # So is this the main page you're meant to go to?
-        return redirect(url_for('index'))
-    return render_template('login.html')
-
-
-@app.route("/signup")
-def signup():
-    if 'username' in session:
-        username_session = escape(session['username']).capitalize()
-        username_session = username_session.split('@')[0]
-        # So is this the main page you're meant to go to?
-        return redirect(url_for('index'))
-    return render_template('signup.html')
+# @app.route("/login")
+# def login():
+#     if 'username' in session:
+#         username_session = escape(session['username']).capitalize()
+#         username_session = username_session.split('@')[0]
+#         # So is this the main page you're meant to go to?
+#         return redirect(url_for('index'))
+#     return render_template('login.html')
+#
+#
+# @app.route("/signup")
+# def signup():
+#     if 'username' in session:
+#         username_session = escape(session['username']).capitalize()
+#         username_session = username_session.split('@')[0]
+#         # So is this the main page you're meant to go to?
+#         return redirect(url_for('index'))
+#     return render_template('signup.html')
 
 
 @app.route("/my_account")
@@ -90,7 +90,7 @@ def action_signup():
 
         if cursor.fetchone()[0]:
             flash('Email already used')
-            return redirect(url_for('signup'))
+            return redirect(url_for('index'))
 
         _hashed_password = md5(md5(app.secret_key).hexdigest() + md5(_password).hexdigest()).hexdigest()
         query = "INSERT INTO tbl_user (user_name, user_email, user_password) VALUES ('{0}', '{1}', '{2}')".format(
@@ -103,7 +103,7 @@ def action_signup():
 @app.route('/action_login', methods=['POST'])
 def action_login():
     if 'username' in session:
-        return redirect(url_for('login'))
+        return redirect(url_for('index'))
 
     error = None
     try:
@@ -130,6 +130,12 @@ def action_login():
 
 @app.route('/action_logout')
 def action_logout():
+    session.pop('username', None)
+    return redirect(url_for('index'))
+
+
+@app.route('/action_add_bookmark')
+def action_add_bookmark():
     session.pop('username', None)
     return redirect(url_for('index'))
 
