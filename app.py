@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, json, session, redirect, url_
 from flaskext.mysql import MySQL
 from hashlib import md5
 import os
+
 app = Flask(__name__)
 
 mysql = MySQL()
@@ -142,5 +143,5 @@ def action_add_bookmark():
 
 
 if __name__ == "__main__":
-	port = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000))
     app.run(port=port)
